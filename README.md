@@ -6,18 +6,26 @@ To read the given data and perform Feature Transformation process and save the d
 Feature Transformation is a technique by which we can boost our model performance. Feature transformation is a mathematical transformation in which we apply a mathematical formula to a particular column(feature) and transform the values which are useful for our further analysis.
 
 ### ALGORITHM:
-## STEP 1 Read the given Data
+## STEP 1
+Read the given Data
 
-## STEP 2 Clean the Data Set using Data Cleaning Process
+## STEP 2 
+Clean the Data Set using Data Cleaning Process
 
-## STEP 3 Apply Feature Transformation techniques to all the features of the data set
+## STEP 3
+Apply Feature Transformation techniques to all the features of the data set
 
-## STEP 4 Save the data to the file
+## STEP 4 
+Save the data to the file
 
 ## CODE:
-Name : Chintha.Nagajyothi 
-Register Number : 212221230015 
+```
+Name : R Hemapriya
+Register Number : 212221230036
 Feature Transformation - Data_to_Transform.csv
+```
+
+```
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -64,5 +72,18 @@ qt = QuantileTransformer(output_distribution = 'normal')
 df5['ModerateNegativeSkew_2'] = pd.DataFrame(qt.fit_transform(df5[['ModerateNegativeSkew']]))
 sm.qqplot(df5['ModerateNegativeSkew_2'],line='45')
 plt.show()
-OUTPUT:
-![output]()
+```
+## OUTPUT:
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.1.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.2.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.3.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.4.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.5.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.6.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.7.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.8.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.9.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.10.jpg)
+![output](https://github.com/Hemapriya-2004/Ex-06-Feature-Transformation/blob/main/6.11.jpg)
+
+
